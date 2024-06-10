@@ -1,0 +1,1547 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden; /* Allow vertical scrolling */
+    overflow-y: auto;
+}
+
+
+.ten {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.ten1 {
+    height: 80%;
+    width: 10%;
+    /* border: 1px solid white; */
+    margin-right: 2%;
+    color: white;
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ten1:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ten2 {
+    height: 80%;
+    width: 8.3%;
+    color: white;
+    display: flex; 
+    gap: 6%;
+    margin-right: 3%;
+}
+.ten2:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ten100 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ten101 {
+    height: 100%;
+    width: 74%;
+}
+.p1 {
+    font-size: 0.7rem;
+    margin-top: 8%;
+    color: rgb(196, 189, 189);
+}
+.ten3 {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    margin-right: 1%;
+}
+.ten3:hover {
+    cursor: pointer;
+}
+.ten30 {
+    height: 100%;
+    width: 11%;
+}
+.ten30:hover {
+    cursor: pointer;
+}
+.opt {
+    height: 100%;
+    width: 100%;
+}
+.ten32 {
+    height: 98%;
+    width: 10%;
+    background-color: rgb(207, 115, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.068%;
+    margin-left: 1%;
+}
+.ten32:hover {
+    cursor: pointer;
+    background-color: rgb(114, 62, 2);
+}
+
+.ten31 {
+    height: 90%;
+    width: 77%;
+}
+.ten31:hover {
+    cursor: pointer;
+}
+input {
+    height: 100%;
+    width: 100%;
+}
+option {
+    background-color: black;
+}
+.ten4 {
+    height: 80%;
+    width: 6%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1%;
+    
+}
+.opt1 {
+    height: 75%;
+    width: 75%;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+}
+.opt1:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ten5 {
+    height: 80%;
+    width: 13%;
+    margin-right: 1%;
+}
+.ten5:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ten50 {
+    height: 50%;
+    display: flex;
+    color: white;
+    align-items: end;
+
+}
+.cl {
+    color: rgb(196, 189, 189);
+    font-size: 0.7rem;
+    margin-top: 2%;
+    
+}
+.opt2 {
+    background-color: transparent;
+    width: 17%;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+}
+.cl1 {
+    font-size: 0.9rem;
+}
+.ten6 {
+    height: 80%;
+    width: 8%;
+    color: white;
+    vertical-align: middle;
+}
+.ten6:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+.cl3 {
+    color: rgb(196, 189, 189);
+    font-size: 0.7rem;
+    margin-top: 2%;
+    height: 23.5%;
+}
+.cl4 {
+        font-size: 0.9rem;
+        margin-top: 1%;
+
+}
+.ten7 {
+    height: 80%;
+    width: 8%;
+    color: rgb(202, 133, 5);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ten7:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+.pen {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(18, 18, 83);
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+.pen1 , .pen2 , .pen3 , .pen4, .pen5, .pen6 {
+    font-size: 0.8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pen1:hover , .pen2:hover , .pen3:hover , .pen4:hover , .pen5:hover , .pen6:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.pen1 {
+    margin-right: 2%;
+    margin-left: 1.5%;
+    width:2%;
+}
+
+.pen2 {
+    margin-right: 2%;
+}
+.pen3 {
+    margin-right: 2%;
+}
+.pen4 {
+    margin-right: 2%;
+}
+.pen5 {
+    margin-right: 2%;
+}
+.pen6 {
+    margin-right: 2%;
+}
+/* content */
+
+.ben {
+    height: 500px;
+    width: 100%;
+    background-image: url(71YTsbTxBsL._SX3000_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ben1 {
+    height: 1050px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(217, 234, 248); 
+    overflow: hidden; 
+}
+.ben:hover {
+    cursor: pointer;
+
+}
+
+.ben2 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben2000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben2001{
+    height: 230px;
+    width: 87%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(f85be8991096ba42388c548f2d60e8c2.jpg_300x0q75.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.ben2001:hover{
+    cursor: pointer;
+}
+.ben2002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben2002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben3 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben3000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben3001{
+    height: 230px;
+    width: 87%;
+
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(cc16231679ac82b3e07544eeb6191a47.jpg_300x0q75.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ben3001:hover{
+    cursor: pointer;
+}
+.ben3002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben3002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben4 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben4000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben4001{
+    height: 230px;
+    width: 87%;
+    
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(4f9894c38eb23a09e3575a0b41b8a638.png_300x0q75.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.ben4001:hover{
+    cursor: pointer;
+}
+.ben4002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben4002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben5 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben5000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben5001{
+    height: 230px;
+    width: 87%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(gaming\ pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ben5001:hover{
+    cursor: pointer;
+}
+.ben5002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben5002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben6 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben6000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben6001{
+    height: 230px;
+    width: 87%;
+    
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(bd9bacc8124c6d67db04b791f7b60917.jpg_300x0q75.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ben6001:hover{
+    cursor: pointer;
+}
+.ben6002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben6002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben7 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben7000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben7001{
+    height: 230px;
+    width: 87%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(gift.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ben7001:hover{
+    cursor: pointer;
+}
+.ben7002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben7002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben8 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben8000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben8001{
+    height: 230px;
+    width: 87%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(beauty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ben8001:hover{
+    cursor: pointer;
+}
+.ben8002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben8002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben9 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben9000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben9001{
+    height: 230px;
+    width: 87%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(f612727fc1eb2297d46c27ad371cf08a.jpg_300x0q75.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ben9001:hover{
+    cursor: pointer;
+}
+.ben9002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben9002:hover {
+    cursor: pointer;
+    color: orange;
+}
+.ben10 {
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    overflow: hidden;
+}
+.ben10000 {
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
+.ben10001{
+    height: 230px;
+    width: 87%;
+    margin-top: 10px;
+    margin-left: 5%;
+    background-image: url(7528aef82be411f7eb921b86a7aaedd4.jpg_300x0q75.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ben10001:hover{
+    cursor: pointer;
+}
+.ben10002 {
+    margin-top: 10px;
+    margin-left: 5%;
+    color: rgb(98, 98, 243);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.ben10002:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+/* footer */
+.cen1 {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(24, 36, 61);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color for footer content */
+    font-size: 1em; /* Font size for footer content */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+    margin-top: 820px;
+    overflow: hidden; /* Pushes the footer to the bottom of the page if content is shorter */
+}
+.cen1:hover {
+    background-color: rgb(32, 52, 95);
+    cursor: pointer;
+}
+.cen2 {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(31, 31, 46);
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+.cen3 {
+    height: 80%;
+    width: 25%;
+}
+.cen4 {
+    height: 80%;
+    width: 25%;
+}
+.cen5 {
+    height: 80%;
+    width: 25%;
+}
+.cen6 {
+    height: 80%;
+    width: 25%;
+}
+
+.puh1{
+    margin-left: 7%;
+}
+.peh2 {
+    margin-left: 7%;
+    font-size: 0.9rem;
+    color:  rgb(196, 189, 189);
+}
+.peh2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fan1 {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(41, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.fan2 {
+    height: 60%;
+    width: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(224, 155, 5);
+}
+.fan200 {
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fan200:hover {
+    cursor: pointer;
+}
+.fan3 {
+    height: 60%;
+    width: 14%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10%;
+}
+.fan4 {
+    height: 60%;
+    width: 14%;
+    margin-right: 1%;
+    color: white;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fan5 {
+    height: 60%;
+    width: 14%;
+    color: white;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#choices {
+    height: 70%;
+    width: 70%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+#choices:hover {
+    cursor: pointer;
+}
+.fan40 {
+    height: 70%;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fan40:hover {
+    cursor: pointer;
+}
+.fiin {
+    color: rgb(255, 166, 0);
+}
+.fiin:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 2500px){
+    .ten {
+        height: 80px;
+    }
+    .pen {
+        height: 50px;
+    }
+    .ten1 {
+        font-size: 3.5rem;
+    }
+    .ten2 {
+        font-size: 1.5rem;
+    }
+    .p1 {
+        font-size: 1.1rem;
+    }
+    .ten3 {
+        font-size: 1.5rem;
+    }
+    .opt1 {
+        font-size: 1.5rem;
+    }
+    .option {
+        font-size: 1.5rem;
+    }
+    .ten5 {
+        font-size: 1.5rem;
+    }
+    .cl {
+        font-size: 1.1rem;
+
+    }
+    .cl1 {
+        font-size: 1.5rem;
+    }
+    .cl3 {
+        font-size: 1.1rem;
+        margin-bottom: 5%;
+        height: 19px;
+    }
+    .cl4 {
+        font-size: 1.5rem;
+    }
+    .ten7 {
+        font-size: 3rem;
+    }
+    .input {
+        font-size: 1.3rem;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 1.3rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 1.5rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 1.3rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 1.3rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 1.2rem;
+    }
+    .fan200 {
+        font-size: 3.3rem;
+        height: 100%;
+    }
+    .fan3 {
+        font-size: 2.3rem;
+    }
+    
+    #choices {
+        font-size: 1.4rem;
+    }
+   .fan40 {
+    font-size: 1.4rem;
+   }
+   .fan50 {
+    font-size: 1.4rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .peh2 {
+    font-size: 1.4rem;
+   }
+}
+@media screen and (max-width: 1670px){
+    .ten {
+        height: 70px;
+    }
+    .pen {
+        height: 30px;
+    }
+    .ten1 {
+        font-size: 3.5rem;
+    }
+    .ten2 {
+        font-size: 1.2rem;
+    }
+    .p1 {
+        font-size: 1rem;
+    }
+    .ten3 {
+        font-size: 1.2rem;
+    }
+    .opt1 {
+        font-size: 1.2rem;
+    }
+    .option {
+        font-size: 1.2rem;
+    }
+    .ten5 {
+        font-size: 1.2rem;
+    }
+    .cl {
+        font-size: 1rem;
+
+    }
+    .cl1 {
+        font-size: 1.2rem;
+    }
+    .cl3 {
+        font-size: 1rem;
+        margin-bottom: 5%;
+        height: 30%;
+    }
+    .cl4 {
+        font-size: 1.2rem;
+        margin-top: 5%;
+    }
+    .ten7 {
+        font-size: 2rem;
+    }
+    .input {
+        font-size: 1.3rem;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 1.1rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 1.2rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 1.2rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 1.2rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 1.2rem;
+    }
+    .fan200 {
+        font-size: 3rem;
+        height: 100%;
+    }
+    .fan3 {
+        font-size: 2rem;
+    }
+    
+    #choices {
+        font-size: 1.2rem;
+    }
+   .fan40 {
+    font-size: 1.2rem;
+   }
+   .fan50 {
+    font-size: 1.2rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .peh2 {
+    font-size: 1.2rem;
+   }
+
+}
+@media screen and (max-width: 1331px){
+    .ten {
+        height: 70px;
+    }
+    .pen {
+        height: 30px;
+    }
+    .ten1 {
+        font-size: 3rem;
+        width: 7%;
+    }
+    .ten2 {
+        font-size: 1rem;
+    }
+    .p1 {
+        font-size: 0.9rem;
+    }
+    .ten3 {
+        font-size: 1rem;
+    }
+    .opt1 {
+        font-size: 1rem;
+    }
+    .option {
+        font-size: 1rem;
+    }
+    .ten5 {
+        font-size: 1rem;
+    }
+    .cl {
+        font-size: 0.9rem;
+
+    }
+    .cl1 {
+        font-size: 1rem;
+    }
+    .cl3 {
+        font-size: 0.9rem;
+        margin-bottom: 5%;
+        height: 20px;
+    }
+    .cl4 {
+        font-size: 1rem;
+        margin-top: 5%;
+        height: 50px;
+    }
+    .ten7 {
+        font-size: 1.8rem;
+    }
+    .input {
+        font-size: 1.3rem;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 1rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 1rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 1rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 1rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 1rem;
+    }
+    .fan200 {
+        font-size: 2.5rem;
+        height: 100%;
+    }
+    .fan3 {
+        font-size: 1.8rem;
+    }
+    
+    #choices {
+        font-size: 1rem;
+    }
+   .fan40 {
+    font-size: 1rem;
+   }
+   .fan50 {
+    font-size: 1rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .peh2 {
+    font-size: 1rem;
+   }
+}
+@media screen and (max-width: 1098px){
+    .ten {
+        height: 50px;
+    }
+    .pen {
+        height: 30px;
+    }
+    .ten1 {
+        font-size: 2rem;
+        width: 7%;
+    }
+    .ten2 {
+        font-size: 0.8rem;
+        gap: 7px;
+    }
+    .p1 {
+        font-size: 0.6rem;
+        margin-top: 10%;
+    }
+    .p2 {
+
+
+    }
+    .ten3 {
+        font-size: 0.8rem;
+    }
+    .opt1 {
+        font-size: 0.8rem;
+    }
+    .option {
+        font-size: 0.8rem;
+    }
+    .ten5 {
+        font-size: 0.8rem;
+        width: 14%;
+    }
+    .cl {
+        font-size: 0.6rem;
+
+    }
+    .cl1 {
+        font-size: 0.8rem;
+    }
+    .cl3 {
+        font-size: 0.6rem;
+        margin-bottom: 5%;
+        height: 13px;
+    }
+    .cl4 {
+        font-size: 0.8rem;
+        margin-top: 5%;
+        height: 15px;
+    }
+    .ten6 {
+        margin-left: 3%;
+        position: relative;
+        right: 20px;
+    }
+    .ten7 {
+        font-size: 1.7rem;
+        width: 5%;
+    }
+    .input {
+        font-size: 1.3rem;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 0.8rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 0.8rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 0.8rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 0.8rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 0.8rem;
+    }
+    .fan200 {
+        font-size: 2rem;
+        height: 100%;
+
+    }
+    .fan3 {
+        font-size: 1.6rem;
+    }
+    
+    #choices {
+        font-size: 0.8rem;
+    }
+   .fan40 {
+    font-size: 0.8rem;
+   }
+   .fan50 {
+    font-size: 0.8rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .peh2 {
+    font-size: 0.8rem;
+   }
+
+}
+@media screen and (max-width: 815px) {
+    .ten {
+        height: 45px;
+    }
+    .pen {
+        height: 25px;
+    }
+    .ten1 {
+        font-size: 1.8rem;
+        width: 6%;
+    }
+    .ten2 {
+        font-size: 0.6rem;
+        gap: 7px;
+        margin-right: 1%;
+    }
+    .p1 {
+        font-size: 0.5rem;
+        margin-top: 10%;
+        height: 12px;
+    }
+    .p2 {
+        position: relative;
+
+    }
+    .ten3 {
+        font-size: 0.6rem;
+    }
+    .opt1 {
+        font-size: 0.6rem;
+    }
+    .option {
+        font-size: 0.6rem;
+    }
+    .ten5 {
+        font-size: 0.6rem;
+        width: 14%;
+    }
+    .cl {
+        font-size: 0.5rem;
+        height: 6.5px;
+    }
+    .cl1 {
+        font-size: 0.6rem;
+    }
+    .cl3 {
+        font-size: 0.5rem;
+        margin-bottom: 5%;
+        height: 30%;
+        margin-top: 5%;
+    }
+    .cl4 {
+        font-size: 0.6rem;
+        margin-top: 5%;
+    }
+    .ten6 {
+        margin-left: 3%;
+    }
+    .ten7 {
+        font-size: 1.5rem;
+        width: 5%;
+    }
+    .input {
+        font-size: 1.3rem;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 0.6rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 0.6rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 0.6rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 0.6rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 0.6rem;
+    }
+    .fan200 {
+        font-size: 1.8rem;
+        height: 100%;
+
+    }
+    .fan3 {
+        font-size: 1.4rem;
+    }
+    
+    #choices {
+        font-size: 0.6rem;
+        width: 80%;
+    }
+   .fan40 {
+    font-size: 0.6rem;
+   }
+   .fan50 {
+    font-size: 0.6rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .opt {
+    font-size: 0.9rem;
+    width: 50px;
+   }
+   .opt1 {
+    width: 100%;
+   }
+   .peh2 {
+    font-size: 0.6rem;
+   }
+
+}
+@media screen and (max-width: 645px) {
+    .ten {
+        height: 35px;
+    }
+    .pen {
+        height: 25px;
+    }
+    .ten1 {
+        font-size: 1.6rem;
+        width: 6%;
+    }
+    .ten2 {
+        font-size: 0.4rem;
+        margin-right: 1%;
+        justify-content: center;
+    }
+    .p1 {
+        font-size: 0.3rem;
+        margin-top: 5px;
+        height: 8px;
+    }
+    .p2 {
+        position: relative;
+
+    }
+    .ten3 {
+        font-size: 0.4rem;
+        height: 60%;
+    }
+    .opt1 {
+        font-size: 0.4rem;
+    }
+    .ten4 {
+        width: 8%;
+    }
+    .option {
+        font-size: 0.4rem;
+    }
+    .ten5 {
+        font-size: 0.4rem;
+        width: 14%;
+    }
+    .cl {
+        font-size: 0.3rem;
+        height: 6.5px;
+        margin-top: 5px;
+
+    }
+    .cl1 {
+        font-size: 0.4rem;
+    }
+    .cl3 {
+        font-size: 0.3rem;
+        margin-bottom: 0%;
+        /* height: %; */
+        margin-top: 5px;
+        height: 7px;
+    }
+    .cl4 {
+        font-size: 0.4rem;
+        margin-bottom: 2px;
+    }
+    .ten6 {
+        margin-left: 3%;
+        position: relative;
+        right: 10px;
+    }
+    .ten7 {
+        font-size: 1.3rem;
+        width: 5%;
+    }
+    input {
+        font-size: 1.1rem;
+        height: 17px;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 0.4rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 0.4rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 0.4rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 0.4rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 0.4rem;
+    }
+    .fan200 {
+        font-size: 1.6rem;
+        height: 100%;
+
+    }
+    .fan3 {
+        font-size: 1.2rem;
+    }
+    
+    #choices {
+        font-size: 0.4rem;
+        width: 80%;
+    }
+   .fan40 {
+    font-size: 0.4rem;
+   }
+   .fan50 {
+    font-size: 0.4rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .opt {
+    font-size: 0.6rem;
+    width: 50px;
+   }
+   .opt1 {
+    width: 100%;
+   }
+   input {
+    font-size: 0.6rem;
+   }
+   .peh2 {
+    font-size: 0.4rem;
+   }
+   .ten50 {
+    height: 10px;
+   }
+   .opt2 {
+    height: 8px;
+   }
+   .cen2 {
+    height: 200px;
+   }
+}
+@media screen and (max-width: 410px) {
+    .ten {
+        height: 30px;
+    }
+    .pen {
+        height: 18px;
+    }
+    .ten1 {
+        font-size: 1.5rem;
+        width: 6%;
+    }
+    .ten2 {
+        font-size: 0.3rem;
+        margin-right: 1%;
+        justify-content: center;
+    }
+    .p1 {
+        font-size: 0.2rem;
+        margin-top: 5px;
+        height: 8px;
+    }
+    .p2 {
+        position: relative;
+
+    }
+    .ten3 {
+        font-size: 0.3rem;
+        height: 60%;
+    }
+    .opt1 {
+        font-size: 0.3rem;
+    }
+    .ten4 {
+        width: 8%;
+    }
+    .option {
+        font-size: 0.3rem;
+    }
+    .ten5 {
+        font-size: 0.3rem;
+        width: 14%;
+    }
+    .cl {
+        font-size: 0.2rem;
+        height: 6.5px;
+        margin-top: 5px;
+
+    }
+    .cl1 {
+        font-size: 0.3rem;
+        height: 9px;
+    }
+    .cl3 {
+        font-size: 0.2rem;
+        margin-bottom: 0%;
+        /* height: %; */
+        margin-top: 5px;
+        height: 6px;
+    }
+    .cl4 {
+        font-size: 0.3rem;
+        margin-bottom: 2px;
+        height: 10px;
+    }
+    .ten6 {
+        margin-right: 10px;
+        position: relative;
+        right: 5px;
+    }
+    .ten7 {
+        font-size: 1.2rem;
+        width: 5%;
+        margin-right: 5px;
+    }
+    input {
+        font-size: 1rem;
+        height: 17px;
+    }
+    .pen1 ,.pen2 , .pen3 ,.pen4 ,.pen5 ,.pen6{
+        font-size: 0.3rem;
+    }
+    .ben2000 , .ben3000 ,.ben4000 ,.ben5000 ,.ben6000 ,.ben7000 , .ben8000 ,.ben9000 ,.ben10000{
+        font-size: 0.3rem;
+    }
+    .ben2002 , .ben3002 ,.ben4002 ,.ben5002 ,.ben6002 ,.ben7002 , .ben8002 ,.ben9002 ,.ben10002{
+        font-size: 0.3rem;
+    }
+    .cen1 {
+        margin-top: 770px;
+    }
+    .pu1 {
+        font-size: 0.3rem;
+    }
+    .cen3 , .cen4 ,.cen5 ,.cen6{
+        font-size: 0.3rem;
+    }
+    .fan200 {
+        font-size: 1.4rem;
+        height: 100%;
+
+    }
+    .fan3 {
+        font-size: 1rem;
+    }
+    
+    #choices {
+        font-size: 0.3rem;
+        width: 80%;
+        height: 20px;
+    }
+   .fan40 {
+    font-size: 0.3rem;
+   }
+   .fan50 {
+    font-size: 0.3rem;
+   }
+   .ben1 {
+    background-color: transparent;
+   }
+   .opt {
+    font-size: 0.4rem;
+    width: 50px;
+   }
+   .opt1 {
+    width: 100%;
+    font-size: 0.3rem;
+    appearance: none;
+   }
+   input {
+    font-size: 0.4rem;
+    height: 14px;
+   }
+   .peh2 {
+    font-size: 0.3rem;
+   }
+   .ten50 {
+    height: 10px;
+   }
+   .opt2 {
+    height: 8px;
+    position: relative;
+    right: 0.1px;
+    line-height: 1.3;
+    height: 9px;
+    appearance: none;
+   }
+   .cen2 {
+    height: 200px;
+   }
+   .cen1 {
+    margin-top: 830px;
+    height: 30px;
+   }
+   .fan40 {
+    height: 20px;
+   }
+   .ten101 {
+    margin-right: 2px;
+   }
+   .ten2 {
+    gap: 3px;
+   }
+} 
